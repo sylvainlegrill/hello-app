@@ -7,5 +7,7 @@ var inputs = document.getElementsByTagName('input');
 var input = inputs[0];
 
 button.onclick = function(){
-    alert('Hello, ' + input.value + '!');
+
+    window.open('https://en.wikipedia.org/wiki/Spain');
+
 };
