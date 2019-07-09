@@ -13,3 +13,8 @@ var innerAlert = innerAlerts[0];
 button.onclick = function(){
     innerAlert.innerHTML = 'Hello, ' + input.value + '!';
 };
+
+var emoji = document.getElementsByTagName('h1');
+emoji.onclick = function(){
+    window.open('https://en.wikipedia.org/wiki/Spain');
+};
